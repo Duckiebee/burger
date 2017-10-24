@@ -7,14 +7,12 @@ var burger = {
     });
   },
 
-  // cols and vals variables are arrays
   insertOne: function(cols, vals, cb) {
     orm.insertOne('burgers', cols, vals, function(res) {
       cb(res);
     });
   },
 
-  // The objColVals is an object specifying columns as object keys with associated values
   updateOne: function(objColVals, condition, cb) {
     orm.updateOne('burgers', objColVals, condition, function(res) {
       cb(res);
