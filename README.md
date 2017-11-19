@@ -15,12 +15,12 @@ Using an home-grown ORM, the app has 3 basic CRUD functions...
 ## Installation 
 To run the application locally, first clone this repository with the following command.
 
-''' git clone https://github.com/Duckiebee/burger.git '''
+``` git clone https://github.com/Duckiebee/burger.git ```
 
 -Next, cd into the folder where the repo was cloned to your computer and install the application dependencies.
-''' npm install '''
+``` npm install ```
 
 -Finally, run the node server locally.
-''' node server '''
+``` node server ```
 
 Now, open the local application on port 3000 at the URL: http://localhost:3000/.
